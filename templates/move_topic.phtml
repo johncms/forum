@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @var \Johncms\Forum\Models\ForumTopic $topic
+ * @var $sections
+ * @var $actionUrl
+ * @var $csrf_token
+ */
+
+$this->layout('system::layout/default');
+?>
+<form action="<?= $actionUrl ?>" method="post">
+    <input type="hidden" name="csrf_token" value="<?= $csrf_token ?>">
+    <?php foreach ($sections as $section): ?>
+        <?= $this->fetch('forum::parts/radio_input', [
+            'currentSection' => $topic->section_id,
+            'section'        => $section,
+            'sectionLevel'   => 0,
+            'name'           => 'section',
+        ]) ?>
+    <?php endforeach; ?>
+    <div class="mt-3">
+        <button type="submit" class="btn btn-primary"><?= __('Move') ?></button>
+        <a href="<?= $topic->url ?>" class="btn btn-secondary"><?= __('Back to topic') ?></a>
+    </div>
+</form>

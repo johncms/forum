@@ -1,0 +1,1127 @@
+msgid ""
+msgstr ""
+"X-Domain: forum\n"
+
+#: modules/johncms/forum/config/places.php:11
+#: modules/johncms/forum/includes/editpost.php:107
+#: modules/johncms/forum/includes/file.php:49
+#: modules/johncms/forum/includes/say.php:614
+#: modules/johncms/forum/includes/show_post.php:33
+#: modules/johncms/forum/includes/show_post.php:55
+#: modules/johncms/forum/includes/tema.php:52
+#: modules/johncms/forum/includes/tema.php:69
+#: modules/johncms/forum/includes/tema.php:111
+#: modules/johncms/forum/index.php:54
+#: modules/johncms/forum/index.php:101
+#: modules/johncms/forum/src/Controllers/BaseForumController.php:19
+#: modules/johncms/forum/src/Controllers/LatestTopicsController.php:84
+#: modules/johncms/forum/src/Controllers/PollController.php:269
+#: modules/johncms/forum/src/Controllers/PollController.php:270
+#: modules/johncms/forum/src/ForumUtils.php:109
+#: modules/johncms/forum/src/Providers/MenuServiceProvider.php:22
+#: modules/johncms/forum/templates/files_list.phtml:154
+#: modules/johncms/forum/templates/forum_search.phtml:75
+#: modules/johncms/forum/templates/new_topics.blade.php:117
+#: modules/johncms/forum/templates/show_post.phtml:148
+msgid "Forum"
+msgstr ""
+
+#: modules/johncms/forum/includes/editpost.php:28
+#: modules/johncms/forum/includes/editpost.php:160
+#: modules/johncms/forum/includes/editpost.php:255
+#: modules/johncms/forum/includes/editpost.php:300
+#: modules/johncms/forum/includes/editpost.php:301
+#: modules/johncms/forum/src/Controllers/MessagesController.php:275
+#: modules/johncms/forum/src/Controllers/MessagesController.php:298
+msgid "Edit Message"
+msgstr ""
+
+#: modules/johncms/forum/includes/editpost.php:30
+#: modules/johncms/forum/includes/files.php:90
+#: modules/johncms/forum/includes/show_post.php:31
+#: modules/johncms/forum/includes/show_post.php:53
+#: modules/johncms/forum/includes/tema.php:50
+#: modules/johncms/forum/includes/tema.php:67
+#: modules/johncms/forum/src/Controllers/FilesController.php:30
+msgid "Wrong data"
+msgstr ""
+
+#: modules/johncms/forum/includes/editpost.php:32
+#: modules/johncms/forum/includes/editpost.php:69
+#: modules/johncms/forum/includes/editpost.php:76
+#: modules/johncms/forum/includes/editpost.php:96
+#: modules/johncms/forum/includes/editpost.php:101
+#: modules/johncms/forum/includes/files.php:92
+#: modules/johncms/forum/includes/say.php:40
+#: modules/johncms/forum/includes/say.php:103
+#: modules/johncms/forum/includes/say.php:120
+#: modules/johncms/forum/includes/say.php:149
+#: modules/johncms/forum/includes/say.php:168
+#: modules/johncms/forum/includes/say.php:335
+#: modules/johncms/forum/includes/say.php:351
+#: modules/johncms/forum/includes/say.php:367
+#: modules/johncms/forum/includes/say.php:381
+#: modules/johncms/forum/includes/say.php:453
+#: modules/johncms/forum/includes/say.php:473
+#: modules/johncms/forum/src/Controllers/FilesController.php:32
+#: modules/johncms/forum/src/Controllers/FilesController.php:45
+#: modules/johncms/forum/src/Controllers/MessagesController.php:50
+#: modules/johncms/forum/src/Controllers/MessagesController.php:73
+#: modules/johncms/forum/src/Controllers/MessagesController.php:96
+#: modules/johncms/forum/src/Controllers/MessagesController.php:238
+#: modules/johncms/forum/src/Controllers/MessagesController.php:252
+#: modules/johncms/forum/src/Controllers/MessagesController.php:326
+#: modules/johncms/forum/src/Controllers/MessagesController.php:339
+#: modules/johncms/forum/src/Controllers/MessagesController.php:376
+#: modules/johncms/forum/src/Controllers/MessagesController.php:392
+#: modules/johncms/forum/src/Controllers/PollController.php:274
+#: modules/johncms/forum/src/Controllers/PollController.php:295
+#: modules/johncms/forum/src/Controllers/TopicsController.php:465
+#: modules/johncms/forum/src/Controllers/TopicsController.php:531
+#: modules/johncms/forum/src/Controllers/TopicsController.php:544
+#: modules/johncms/forum/templates/edit_post.phtml:35
+#: modules/johncms/forum/templates/new_topic.phtml:24
+#: modules/johncms/forum/templates/reply_message.phtml:43
+msgid "Back"
+msgstr ""
+
+#: modules/johncms/forum/includes/editpost.php:69
+msgid "You cannot edit posts of higher administration"
+msgstr ""
+
+#: modules/johncms/forum/includes/editpost.php:76
+#: modules/johncms/forum/src/Controllers/MessagesController.php:238
+msgid "You are trying to change another's post"
+msgstr ""
+
+#: modules/johncms/forum/includes/editpost.php:96
+msgid "Your message not already latest, you cannot change it"
+msgstr ""
+
+#: modules/johncms/forum/includes/editpost.php:101
+#: modules/johncms/forum/includes/editpost.php:162
+msgid "You cannot edit your posts after 5 minutes"
+msgstr ""
+
+#: modules/johncms/forum/includes/editpost.php:107
+msgid "Message does not exists or has been deleted"
+msgstr ""
+
+#: modules/johncms/forum/includes/editpost.php:138
+#: modules/johncms/forum/includes/editpost.php:139
+msgid "Delete file"
+msgstr ""
+
+#: modules/johncms/forum/includes/editpost.php:237
+#: modules/johncms/forum/includes/editpost.php:238
+#: modules/johncms/forum/src/Controllers/MessagesController.php:186
+msgid "Delete Message"
+msgstr ""
+
+#: modules/johncms/forum/includes/editpost.php:257
+#: modules/johncms/forum/includes/say.php:436
+#: modules/johncms/forum/src/Controllers/MessagesController.php:277
+#: modules/johncms/forum/src/Controllers/MessagesController.php:360
+msgid "You have not entered the message"
+msgstr ""
+
+#: modules/johncms/forum/includes/editpost.php:259
+#: modules/johncms/forum/includes/say.php:438
+#: modules/johncms/forum/src/Controllers/FilesController.php:127
+#: modules/johncms/forum/src/Controllers/FilesController.php:138
+#: modules/johncms/forum/src/Controllers/MessagesController.php:279
+#: modules/johncms/forum/src/Controllers/MessagesController.php:362
+#: modules/johncms/forum/src/Controllers/PollController.php:81
+#: modules/johncms/forum/src/Controllers/SearchController.php:98
+msgid "Repeat"
+msgstr ""
+
+#: modules/johncms/forum/includes/editpost.php:319
+#: modules/johncms/forum/src/Controllers/MessagesController.php:261
+msgid "Error"
+msgstr ""
+
+#: modules/johncms/forum/includes/file.php:45
+msgid "Download file"
+msgstr ""
+
+#: modules/johncms/forum/includes/file.php:47
+msgid "File does not exist"
+msgstr ""
+
+#: modules/johncms/forum/includes/files.php:22
+msgid "Windows applications"
+msgstr ""
+
+#: modules/johncms/forum/includes/files.php:23
+msgid "Java applications"
+msgstr ""
+
+#: modules/johncms/forum/includes/files.php:24
+msgid "SIS"
+msgstr ""
+
+#: modules/johncms/forum/includes/files.php:25
+msgid "txt"
+msgstr ""
+
+#: modules/johncms/forum/includes/files.php:26
+msgid "Pictures"
+msgstr ""
+
+#: modules/johncms/forum/includes/files.php:27
+msgid "Archive"
+msgstr ""
+
+#: modules/johncms/forum/includes/files.php:28
+msgid "Videos"
+msgstr ""
+
+#: modules/johncms/forum/includes/files.php:29
+msgid "MP3"
+msgstr ""
+
+#: modules/johncms/forum/includes/files.php:30
+msgid "Other"
+msgstr ""
+
+#: modules/johncms/forum/includes/files.php:44
+msgid "Category Files"
+msgstr ""
+
+#: modules/johncms/forum/includes/files.php:51
+msgid "Section files"
+msgstr ""
+
+#: modules/johncms/forum/includes/files.php:58
+#: modules/johncms/forum/templates/topic.phtml:36
+msgid "Topic Files"
+msgstr ""
+
+#: modules/johncms/forum/includes/files.php:65
+msgid "Forum Files"
+msgstr ""
+
+#: modules/johncms/forum/includes/files.php:106
+#: modules/johncms/forum/templates/files_list.phtml:28
+#: modules/johncms/forum/templates/files_sections.phtml:28
+msgid "New Files"
+msgstr ""
+
+#: modules/johncms/forum/includes/files.php:178
+msgid "List of sections"
+msgstr ""
+
+#: modules/johncms/forum/includes/say.php:36
+#: modules/johncms/forum/includes/say.php:99
+#: modules/johncms/forum/includes/say.php:116
+#: modules/johncms/forum/includes/say.php:145
+#: modules/johncms/forum/includes/say.php:164
+#: modules/johncms/forum/includes/say.php:305
+#: modules/johncms/forum/includes/say.php:306
+#: modules/johncms/forum/includes/say.php:331
+#: modules/johncms/forum/includes/say.php:347
+#: modules/johncms/forum/includes/say.php:363
+#: modules/johncms/forum/includes/say.php:377
+#: modules/johncms/forum/includes/say.php:434
+#: modules/johncms/forum/includes/say.php:449
+#: modules/johncms/forum/includes/say.php:469
+#: modules/johncms/forum/includes/say.php:610
+#: modules/johncms/forum/src/Controllers/MessagesController.php:35
+#: modules/johncms/forum/src/Controllers/MessagesController.php:39
+#: modules/johncms/forum/src/Controllers/MessagesController.php:46
+#: modules/johncms/forum/src/Controllers/MessagesController.php:69
+#: modules/johncms/forum/src/Controllers/MessagesController.php:92
+#: modules/johncms/forum/src/Controllers/MessagesController.php:322
+#: modules/johncms/forum/src/Controllers/MessagesController.php:335
+#: modules/johncms/forum/src/Controllers/MessagesController.php:358
+#: modules/johncms/forum/src/Controllers/MessagesController.php:372
+#: modules/johncms/forum/src/Controllers/MessagesController.php:388
+msgid "New message"
+msgstr ""
+
+#: modules/johncms/forum/includes/say.php:38
+#: modules/johncms/forum/src/Controllers/TopicsController.php:199
+#: modules/johncms/forum/src/Controllers/TopicsController.php:244
+msgid "Access forbidden"
+msgstr ""
+
+#: modules/johncms/forum/includes/say.php:101
+#: modules/johncms/forum/includes/say.php:349
+#, php-format
+msgid "You cannot add the message so often<br>Please, wait %d sec."
+msgstr ""
+
+#: modules/johncms/forum/includes/say.php:118
+#: modules/johncms/forum/includes/say.php:365
+#: modules/johncms/forum/src/Controllers/MessagesController.php:48
+#: modules/johncms/forum/src/Controllers/MessagesController.php:324
+msgid "You cannot write in a closed topic"
+msgstr ""
+
+#: modules/johncms/forum/includes/say.php:147
+#: modules/johncms/forum/includes/say.php:451
+#: modules/johncms/forum/src/Controllers/MessagesController.php:71
+#: modules/johncms/forum/src/Controllers/MessagesController.php:374
+msgid "Text is too short"
+msgstr ""
+
+#: modules/johncms/forum/includes/say.php:166
+#: modules/johncms/forum/includes/say.php:471
+#: modules/johncms/forum/src/Controllers/MessagesController.php:94
+#: modules/johncms/forum/src/Controllers/MessagesController.php:390
+msgid "Message already exists"
+msgstr ""
+
+#: modules/johncms/forum/includes/say.php:333
+msgid "Message not found"
+msgstr ""
+
+#: modules/johncms/forum/includes/say.php:379
+#: modules/johncms/forum/src/Controllers/MessagesController.php:337
+msgid "You can not reply to your own message"
+msgstr ""
+
+#: modules/johncms/forum/includes/say.php:406
+msgid "I am glad to answer you"
+msgstr ""
+
+#: modules/johncms/forum/includes/say.php:410
+msgid "respond to Your message"
+msgstr ""
+
+#: modules/johncms/forum/includes/say.php:584
+#: modules/johncms/forum/includes/say.php:585
+#: modules/johncms/forum/src/Controllers/MessagesController.php:457
+msgid "Reply to message"
+msgstr ""
+
+#: modules/johncms/forum/includes/say.php:612
+#: modules/johncms/forum/src/ForumUtils.php:111
+msgid "Topic has been deleted or does not exists"
+msgstr ""
+
+#: modules/johncms/forum/includes/show_post.php:29
+#: modules/johncms/forum/includes/show_post.php:51
+#: modules/johncms/forum/includes/show_post.php:120
+#: modules/johncms/forum/includes/show_post.php:121
+msgid "Show post"
+msgstr ""
+
+#: modules/johncms/forum/includes/tema.php:48
+#: modules/johncms/forum/includes/tema.php:65
+#: modules/johncms/forum/includes/tema.php:164
+#: modules/johncms/forum/includes/tema.php:165
+msgid "Download topic"
+msgstr ""
+
+#: modules/johncms/forum/includes/tema.php:86
+#: modules/johncms/forum/templates/show_post.phtml:139
+#: modules/johncms/forum/templates/topic.phtml:349
+msgid "Quote"
+msgstr ""
+
+#: modules/johncms/forum/includes/tema.php:87
+#: modules/johncms/forum/src/Controllers/PollController.php:105
+#: modules/johncms/forum/src/Controllers/PollController.php:201
+#: modules/johncms/forum/src/Controllers/PollController.php:225
+msgid "Answer"
+msgstr ""
+
+#: modules/johncms/forum/includes/tema.php:146
+msgid "This theme was downloaded from the forum site"
+msgstr ""
+
+#: modules/johncms/forum/includes/who.php:58
+#: modules/johncms/forum/includes/who.php:239
+msgid "Guest"
+msgstr ""
+
+#: modules/johncms/forum/includes/who.php:91
+#: modules/johncms/forum/includes/who.php:92
+#: modules/johncms/forum/templates/who.phtml:32
+msgid "Who in Topic"
+msgstr ""
+
+#: modules/johncms/forum/includes/who.php:93
+#: modules/johncms/forum/includes/who.php:277
+#: modules/johncms/forum/src/Controllers/LatestTopicsController.php:27
+#: modules/johncms/forum/src/Controllers/LatestTopicsController.php:50
+#: modules/johncms/forum/src/Controllers/LatestTopicsController.php:101
+#: modules/johncms/forum/templates/curators.phtml:32
+#: modules/johncms/forum/templates/files_list.phtml:36
+#: modules/johncms/forum/templates/files_sections.phtml:49
+#: modules/johncms/forum/templates/filter_by_author.phtml:31
+msgid "The list is empty"
+msgstr ""
+
+#: modules/johncms/forum/includes/who.php:157
+#: modules/johncms/forum/includes/who.php:182
+#: modules/johncms/forum/includes/who.php:192
+#: modules/johncms/forum/includes/who.php:220
+#: modules/johncms/forum/includes/who.php:230
+#: modules/johncms/forum/includes/who.php:235
+msgid "In the forum Main"
+msgstr ""
+
+#: modules/johncms/forum/includes/who.php:161
+msgid "Here, in the List"
+msgstr ""
+
+#: modules/johncms/forum/includes/who.php:165
+msgid "Looking forum files"
+msgstr ""
+
+#: modules/johncms/forum/includes/who.php:169
+msgid "In the unreads"
+msgstr ""
+
+#: modules/johncms/forum/includes/who.php:173
+#: modules/johncms/forum/src/Controllers/SearchController.php:18
+msgid "Forum search"
+msgstr ""
+
+#: modules/johncms/forum/includes/who.php:180
+msgid "In the Category"
+msgstr ""
+
+#: modules/johncms/forum/includes/who.php:190
+msgid "In the Section"
+msgstr ""
+
+#: modules/johncms/forum/includes/who.php:215
+msgid "Answers in the Topic"
+msgstr ""
+
+#: modules/johncms/forum/includes/who.php:217
+msgid "Writes in the Topic"
+msgstr ""
+
+#: modules/johncms/forum/includes/who.php:217
+#: modules/johncms/forum/includes/who.php:228
+msgid "In the Topic"
+msgstr ""
+
+#: modules/johncms/forum/includes/who.php:275
+#: modules/johncms/forum/includes/who.php:276
+msgid "Who in Forum"
+msgstr ""
+
+#: modules/johncms/forum/index.php:80
+msgid "Forum moderator"
+msgstr ""
+
+#: modules/johncms/forum/index.php:81
+msgid "Download moderator"
+msgstr ""
+
+#: modules/johncms/forum/index.php:82
+msgid "Library moderator"
+msgstr ""
+
+#: modules/johncms/forum/index.php:83
+msgid "Super moderator"
+msgstr ""
+
+#: modules/johncms/forum/index.php:84
+msgid "Administrator"
+msgstr ""
+
+#: modules/johncms/forum/index.php:85
+msgid "Supervisor"
+msgstr ""
+
+#: modules/johncms/forum/index.php:92
+#: modules/johncms/forum/src/Controllers/BaseForumController.php:27
+#: modules/johncms/forum/templates/header.blade.php:20
+msgid "Forum is closed"
+msgstr ""
+
+#: modules/johncms/forum/index.php:94
+#: modules/johncms/forum/src/Controllers/BaseForumController.php:29
+msgid "For registered users only"
+msgstr ""
+
+#: modules/johncms/forum/src/Ban/ForumBans.php:24
+msgid "Can't write anything"
+msgstr ""
+
+#: modules/johncms/forum/src/Ban/ForumBans.php:28
+msgid "Add forum posts"
+msgstr ""
+
+#: modules/johncms/forum/src/Ban/ForumBans.php:32
+msgid "Upload photos on the forum"
+msgstr ""
+
+#: modules/johncms/forum/src/Ban/ForumBans.php:36
+msgid "Create topics on the forum"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/CuratorsController.php:58
+#: modules/johncms/forum/src/Controllers/CuratorsController.php:59
+#: modules/johncms/forum/templates/topic.phtml:451
+msgid "Curators"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/FilesController.php:22
+msgid "Add file"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/FilesController.php:43
+msgid "The time allotted for the file upload has expired"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/FilesController.php:63
+msgid "File size exceed"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/FilesController.php:69
+msgid "The forbidden file format.<br>You can upload files of the following extension"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/FilesController.php:83
+#: modules/johncms/forum/src/Controllers/FilesController.php:136
+msgid "Error uploading file"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/LatestTopicsController.php:17
+#: modules/johncms/forum/src/Controllers/LatestTopicsController.php:18
+#: modules/johncms/forum/src/Controllers/LatestTopicsController.php:80
+#: modules/johncms/forum/templates/header.blade.php:31
+msgid "Unread"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/LatestTopicsController.php:38
+#, php-format
+msgid "All for period %d hours"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/LatestTopicsController.php:39
+#: modules/johncms/forum/templates/header.blade.php:44
+msgid "Show for Period"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/LatestTopicsController.php:82
+msgid "All topics marked as read"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/LatestTopicsController.php:91
+#: modules/johncms/forum/src/Controllers/LatestTopicsController.php:92
+msgid "Last Activity"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/MessagesController.php:252
+#, php-format
+msgid "You cannot edit your posts after %s minutes"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/OnlineController.php:42
+#: modules/johncms/forum/src/Controllers/OnlineController.php:79
+#: modules/johncms/forum/templates/who.phtml:38
+msgid "Users"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/OnlineController.php:47
+#: modules/johncms/forum/src/Controllers/OnlineController.php:84
+#: modules/johncms/forum/templates/who.phtml:39
+msgid "Guests"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/PollController.php:22
+#: modules/johncms/forum/src/Controllers/PollController.php:64
+#: modules/johncms/forum/src/Controllers/PollController.php:65
+#: modules/johncms/forum/src/Controllers/PollController.php:76
+#: modules/johncms/forum/src/Controllers/PollController.php:77
+#: modules/johncms/forum/templates/topic.phtml:386
+msgid "Add Poll"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/PollController.php:67
+msgid "Poll added"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/PollController.php:69
+#: modules/johncms/forum/src/Controllers/PollController.php:191
+msgid "Continue"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/PollController.php:79
+msgid "The required fields are not filled"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/PollController.php:151
+#: modules/johncms/forum/src/Controllers/PollController.php:152
+msgid "Delete Answer"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/PollController.php:186
+#: modules/johncms/forum/src/Controllers/PollController.php:187
+#: modules/johncms/forum/src/Controllers/PollController.php:234
+#: modules/johncms/forum/src/Controllers/PollController.php:235
+#: modules/johncms/forum/templates/topic.phtml:383
+msgid "Edit Poll"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/PollController.php:189
+msgid "Poll changed"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/PollController.php:272
+msgid "Vote accepted"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/PollController.php:291
+#: modules/johncms/forum/templates/topic.phtml:384
+msgid "Delete Poll"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/PollController.php:293
+msgid "Poll deleted"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/PollController.php:317
+msgid "Who voted in the poll"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/PollController.php:322
+msgid "No one has voted in this poll yet"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/SearchController.php:96
+msgid "Invalid length"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/TopicsController.php:201
+#: modules/johncms/forum/src/Controllers/TopicsController.php:246
+msgid "Go to Section"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/TopicsController.php:217
+#: modules/johncms/forum/src/Controllers/TopicsController.php:218
+#: modules/johncms/forum/templates/topics.blade.php:40
+msgid "New Topic"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/TopicsController.php:300
+msgid "Edit Topic"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/TopicsController.php:341
+#: modules/johncms/forum/templates/topic.phtml:401
+msgid "Delete Topic"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/TopicsController.php:446
+#: modules/johncms/forum/src/Controllers/TopicsController.php:460
+#: modules/johncms/forum/src/Controllers/TopicsController.php:461
+#: modules/johncms/forum/templates/topic.phtml:459
+msgid "Filter by author"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/TopicsController.php:463
+msgid "You have not selected any author"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/TopicsController.php:526
+#: modules/johncms/forum/src/Controllers/TopicsController.php:527
+#: modules/johncms/forum/src/Controllers/TopicsController.php:539
+#: modules/johncms/forum/src/Controllers/TopicsController.php:540
+#: modules/johncms/forum/src/Controllers/TopicsController.php:558
+#: modules/johncms/forum/src/Controllers/TopicsController.php:559
+msgid "Delete posts"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/TopicsController.php:529
+msgid "Marked posts are deleted"
+msgstr ""
+
+#: modules/johncms/forum/src/Controllers/TopicsController.php:542
+msgid "You did not choose something to delete"
+msgstr ""
+
+#: modules/johncms/forum/src/Forms/CreateTopicForm.php:30
+msgid "Title"
+msgstr ""
+
+#: modules/johncms/forum/src/Forms/CreateTopicForm.php:31
+msgid "Enter a topic name"
+msgstr ""
+
+#: modules/johncms/forum/src/Forms/CreateTopicForm.php:53
+#: modules/johncms/forum/templates/edit_post.phtml:27
+#: modules/johncms/forum/templates/reply_message.phtml:31
+#: modules/johncms/forum/templates/topic.phtml:119
+#: modules/johncms/forum/templates/topic.phtml:422
+msgid "Message"
+msgstr ""
+
+#: modules/johncms/forum/src/Forms/CreateTopicForm.php:54
+msgid "Enter a message"
+msgstr ""
+
+#: modules/johncms/forum/src/Forms/CreateTopicForm.php:60
+#: modules/johncms/forum/templates/reply_message.phtml:37
+#: modules/johncms/forum/templates/topic.phtml:125
+#: modules/johncms/forum/templates/topic.phtml:428
+msgid "Add File"
+msgstr ""
+
+#: modules/johncms/forum/src/Forms/CreateTopicForm.php:69
+#: modules/johncms/forum/src/Forms/CreateTopicForm.php:70
+msgid "Meta description"
+msgstr ""
+
+#: modules/johncms/forum/src/Forms/CreateTopicForm.php:75
+#: modules/johncms/forum/src/Forms/CreateTopicForm.php:76
+msgid "Meta keywords"
+msgstr ""
+
+#: modules/johncms/forum/src/Install/Installer.php:35
+msgid "Access to forum message management"
+msgstr ""
+
+#: modules/johncms/forum/src/Install/Installer.php:40
+msgid "Access to forum topic management"
+msgstr ""
+
+#: modules/johncms/forum/src/Install/Installer.php:45
+msgid "Access to the complete removal of the topic"
+msgstr ""
+
+#: modules/johncms/forum/templates/add_file.phtml:23
+msgid "File attached"
+msgstr ""
+
+#: modules/johncms/forum/templates/add_file.phtml:26
+msgid "Add more"
+msgstr ""
+
+#: modules/johncms/forum/templates/add_file.phtml:27
+#: modules/johncms/forum/templates/add_file.phtml:43
+#: modules/johncms/forum/templates/add_poll.phtml:43
+#: modules/johncms/forum/templates/curators.phtml:49
+#: modules/johncms/forum/templates/download_topic.phtml:36
+#: modules/johncms/forum/templates/download_topic.phtml:49
+#: modules/johncms/forum/templates/edit_poll.phtml:55
+#: modules/johncms/forum/templates/filter_by_author.phtml:56
+#: modules/johncms/forum/templates/move_topic.phtml:24
+#: modules/johncms/forum/templates/show_post.phtml:147
+msgid "Back to topic"
+msgstr ""
+
+#: modules/johncms/forum/templates/add_file.phtml:35
+msgid "Choose file"
+msgstr ""
+
+#: modules/johncms/forum/templates/add_file.phtml:39
+msgid "Max. Size"
+msgstr ""
+
+#: modules/johncms/forum/templates/add_file.phtml:42
+msgid "Upload"
+msgstr ""
+
+#: modules/johncms/forum/templates/add_poll.phtml:17
+#: modules/johncms/forum/templates/add_poll.phtml:18
+#: modules/johncms/forum/templates/edit_poll.phtml:22
+#: modules/johncms/forum/templates/edit_poll.phtml:23
+msgid "Poll"
+msgstr ""
+
+#: modules/johncms/forum/templates/add_poll.phtml:20
+msgid "Maximum length: 150 characters"
+msgstr ""
+
+#: modules/johncms/forum/templates/add_poll.phtml:23
+#: modules/johncms/forum/templates/edit_poll.phtml:28
+msgid "Answers"
+msgstr ""
+
+#: modules/johncms/forum/templates/add_poll.phtml:29
+msgid "Maximum length: 50 characters"
+msgstr ""
+
+#: modules/johncms/forum/templates/add_poll.phtml:35
+#: modules/johncms/forum/templates/edit_poll.phtml:47
+msgid "Add Answer"
+msgstr ""
+
+#: modules/johncms/forum/templates/add_poll.phtml:38
+#: modules/johncms/forum/templates/edit_poll.phtml:50
+msgid "Delete last"
+msgstr ""
+
+#: modules/johncms/forum/templates/add_poll.phtml:42
+#: modules/johncms/forum/templates/edit_poll.phtml:54
+#: modules/johncms/forum/templates/edit_post.phtml:32
+#: modules/johncms/forum/templates/new_topic.phtml:22
+msgid "Save"
+msgstr ""
+
+#: modules/johncms/forum/templates/clear_search_history.phtml:28
+msgid "Do you really want to clear the search history?"
+msgstr ""
+
+#: modules/johncms/forum/templates/clear_search_history.phtml:31
+msgid "Clear"
+msgstr ""
+
+#: modules/johncms/forum/templates/clear_search_history.phtml:32
+#: modules/johncms/forum/templates/delete_answer.phtml:33
+#: modules/johncms/forum/templates/delete_file.phtml:34
+#: modules/johncms/forum/templates/delete_poll.phtml:22
+#: modules/johncms/forum/templates/delete_post.phtml:32
+#: modules/johncms/forum/templates/delete_topic.phtml:34
+#: modules/johncms/forum/templates/mass_delete.phtml:28
+msgid "Cancel"
+msgstr ""
+
+#: modules/johncms/forum/templates/curators.phtml:26
+#: modules/johncms/forum/templates/filter_by_author.phtml:25
+msgid "Changes saved"
+msgstr ""
+
+#: modules/johncms/forum/templates/curators.phtml:47
+msgid "Assign"
+msgstr ""
+
+#: modules/johncms/forum/templates/delete_answer.phtml:29
+msgid "Do you really want to delete the answer?"
+msgstr ""
+
+#: modules/johncms/forum/templates/delete_answer.phtml:32
+#: modules/johncms/forum/templates/delete_file.phtml:33
+#: modules/johncms/forum/templates/delete_poll.phtml:21
+#: modules/johncms/forum/templates/delete_post.phtml:25
+#: modules/johncms/forum/templates/delete_topic.phtml:27
+#: modules/johncms/forum/templates/mass_delete.phtml:27
+#: modules/johncms/forum/templates/topic.phtml:316
+#: modules/johncms/forum/templates/topic.phtml:361
+msgid "Delete"
+msgstr ""
+
+#: modules/johncms/forum/templates/delete_file.phtml:29
+#: modules/johncms/forum/templates/delete_post.phtml:22
+#: modules/johncms/forum/templates/delete_topic.phtml:17
+#: modules/johncms/forum/templates/mass_delete.phtml:24
+msgid "Do you really want to delete?"
+msgstr ""
+
+#: modules/johncms/forum/templates/delete_file.phtml:38
+#: modules/johncms/forum/templates/delete_post.phtml:35
+msgid "After deleting, one point will be subtracted from the counter of forum posts"
+msgstr ""
+
+#: modules/johncms/forum/templates/delete_poll.phtml:14
+msgid "Do you really want to delete a poll?"
+msgstr ""
+
+#: modules/johncms/forum/templates/delete_post.phtml:17
+msgid "WARNING!<br>This is last post of topic. By deleting this post topic will be deleted (or hidden) too"
+msgstr ""
+
+#: modules/johncms/forum/templates/delete_post.phtml:27
+#: modules/johncms/forum/templates/delete_topic.phtml:22
+msgid "Hide"
+msgstr ""
+
+#: modules/johncms/forum/templates/delete_topic.phtml:33
+msgid "Perform"
+msgstr ""
+
+#: modules/johncms/forum/templates/download_topic.phtml:31
+msgid "Link active 5 minutes"
+msgstr ""
+
+#: modules/johncms/forum/templates/download_topic.phtml:35
+#: modules/johncms/forum/templates/download_topic.phtml:48
+msgid "Download"
+msgstr ""
+
+#: modules/johncms/forum/templates/download_topic.phtml:41
+msgid "Select format"
+msgstr ""
+
+#: modules/johncms/forum/templates/edit_poll.phtml:25
+#: modules/johncms/forum/templates/edit_poll.phtml:41
+#, php-format
+msgid "Maximum length: %s characters"
+msgstr ""
+
+#: modules/johncms/forum/templates/edit_post.phtml:35
+#: modules/johncms/forum/templates/new_topic.phtml:29
+#: modules/johncms/forum/templates/reply_message.phtml:43
+msgid "Smilies"
+msgstr ""
+
+#: modules/johncms/forum/templates/files_list.phtml:80
+#: modules/johncms/forum/templates/topic.phtml:234
+msgid "Link to post"
+msgstr ""
+
+#: modules/johncms/forum/templates/files_list.phtml:131
+msgid "To message"
+msgstr ""
+
+#: modules/johncms/forum/templates/files_list.phtml:134
+msgid "To topic"
+msgstr ""
+
+#: modules/johncms/forum/templates/files_list.phtml:144
+#: modules/johncms/forum/templates/forum_search.phtml:69
+#: modules/johncms/forum/templates/new_topics.blade.php:103
+#: modules/johncms/forum/templates/online/users.phtml:27
+#: modules/johncms/forum/templates/topic.phtml:443
+#: modules/johncms/forum/templates/topics.blade.php:112
+#: modules/johncms/forum/templates/voted_users.phtml:38
+#: modules/johncms/forum/templates/who.phtml:52
+msgid "Total"
+msgstr ""
+
+#: modules/johncms/forum/templates/filter_by_author.phtml:34
+msgid "Filter will be display posts from selected authors only"
+msgstr ""
+
+#: modules/johncms/forum/templates/filter_by_author.phtml:54
+msgid "Filter"
+msgstr ""
+
+#: modules/johncms/forum/templates/footer.blade.php:29
+msgid "Forum rules"
+msgstr ""
+
+#: modules/johncms/forum/templates/forum_search.phtml:26
+#: modules/johncms/forum/templates/forum_search.phtml:27
+msgid "Search query"
+msgstr ""
+
+#: modules/johncms/forum/templates/forum_search.phtml:29
+msgid "Length of query: 4min., 64maks.<br>Search is case insensitive <br>Results are sorted by relevance."
+msgstr ""
+
+#: modules/johncms/forum/templates/forum_search.phtml:34
+msgid "Search in the topic names"
+msgstr ""
+
+#: modules/johncms/forum/templates/forum_search.phtml:37
+#: modules/johncms/forum/templates/header.blade.php:75
+msgid "Search"
+msgstr ""
+
+#: modules/johncms/forum/templates/forum_search.phtml:42
+msgid "Your search did not match any results"
+msgstr ""
+
+#: modules/johncms/forum/templates/forum_search.phtml:54
+#: modules/johncms/forum/templates/new_topics.blade.php:92
+#: modules/johncms/forum/templates/topics.blade.php:106
+msgid "Author"
+msgstr ""
+
+#: modules/johncms/forum/templates/forum_search.phtml:57
+msgid "Go to Message"
+msgstr ""
+
+#: modules/johncms/forum/templates/header.blade.php:22
+msgid "Read only"
+msgstr ""
+
+#: modules/johncms/forum/templates/header.blade.php:53
+msgid "Last activity"
+msgstr ""
+
+#: modules/johncms/forum/templates/move_topic.phtml:23
+msgid "Move"
+msgstr ""
+
+#: modules/johncms/forum/templates/new_topics.blade.php:33
+#: modules/johncms/forum/templates/new_topics.blade.php:34
+msgid "Period"
+msgstr ""
+
+#: modules/johncms/forum/templates/new_topics.blade.php:36
+msgid "Show period"
+msgstr ""
+
+#: modules/johncms/forum/templates/new_topics.blade.php:58
+#: modules/johncms/forum/templates/topics.blade.php:52
+msgid "Pinned topic"
+msgstr ""
+
+#: modules/johncms/forum/templates/new_topics.blade.php:65
+#: modules/johncms/forum/templates/topics.blade.php:59
+msgid "Topic has poll"
+msgstr ""
+
+#: modules/johncms/forum/templates/new_topics.blade.php:72
+#: modules/johncms/forum/templates/topics.blade.php:66
+msgid "Closed topic"
+msgstr ""
+
+#: modules/johncms/forum/templates/new_topics.blade.php:79
+#: modules/johncms/forum/templates/topics.blade.php:73
+#: modules/johncms/forum/templates/topics.blade.php:88
+msgid "Deleted topic"
+msgstr ""
+
+#: modules/johncms/forum/templates/new_topics.blade.php:93
+#: modules/johncms/forum/templates/topics.blade.php:107
+msgid "Last post"
+msgstr ""
+
+#: modules/johncms/forum/templates/new_topics.blade.php:113
+msgid "Mark as read"
+msgstr ""
+
+#: modules/johncms/forum/templates/online/users.phtml:20
+msgid "List is empty"
+msgstr ""
+
+#: modules/johncms/forum/templates/reply_message.phtml:29
+msgid "Topic"
+msgstr ""
+
+#: modules/johncms/forum/templates/reply_message.phtml:40
+#: modules/johncms/forum/templates/topic.phtml:128
+#: modules/johncms/forum/templates/topic.phtml:134
+#: modules/johncms/forum/templates/topic.phtml:431
+#: modules/johncms/forum/templates/topic.phtml:437
+msgid "Write"
+msgstr ""
+
+#: modules/johncms/forum/templates/show_post.phtml:61
+#: modules/johncms/forum/templates/topic.phtml:242
+msgid "Edited:"
+msgstr ""
+
+#: modules/johncms/forum/templates/show_post.phtml:62
+#: modules/johncms/forum/templates/topic.phtml:243
+msgid "Edited"
+msgstr ""
+
+#: modules/johncms/forum/templates/show_post.phtml:79
+#: modules/johncms/forum/templates/topic.phtml:284
+msgid "Attached files"
+msgstr ""
+
+#: modules/johncms/forum/templates/show_post.phtml:134
+#: modules/johncms/forum/templates/topic.phtml:344
+msgid "Reply"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:42
+msgid "Filter by author is activated"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:44
+#: modules/johncms/forum/templates/topic.phtml:457
+msgid "Cancel Filter"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:50
+msgid "Topic closed"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:56
+msgid "Topic deleted by"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:60
+msgid "Undelete topic"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:77
+#: modules/johncms/forum/templates/topic.phtml:107
+msgid "Vote"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:78
+msgid "Results"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:98
+msgid "Total votes"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:130
+#: modules/johncms/forum/templates/topic.phtml:433
+msgid "Preview"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:251
+msgid "Post deleted:"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:252
+msgid "Deleted"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:258
+msgid "Post restored by:"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:259
+msgid "Restored"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:360
+msgid "Edit"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:363
+msgid "Restore"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:375
+msgid "Delete selected"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:379
+msgid "Actions with topic"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:388
+msgid "Curators of the Topic"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:389
+msgid "Change the topic"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:392
+msgid "Open Topic"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:394
+msgid "Close Topic"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:398
+msgid "Restore Topic"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:404
+msgid "Unfix Topic"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:406
+msgid "Pin Topic"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:409
+msgid "Move Topic"
+msgstr ""
+
+#: modules/johncms/forum/templates/topic.phtml:480
+msgid "Who is here"
+msgstr ""
+
+#: modules/johncms/forum/templates/topics.blade.php:92
+msgid "Last page"
+msgstr ""
+
+#: modules/johncms/forum/templates/voted_users.phtml:45
+#: modules/johncms/forum/templates/who.phtml:62
+msgid "Go to Topic"
+msgstr ""

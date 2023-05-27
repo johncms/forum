@@ -1,0 +1,30 @@
+<?php
+
+/**
+ * This file is part of JohnCMS Content Management System.
+ *
+ * @copyright JohnCMS Community
+ * @license   https://opensource.org/licenses/GPL-3.0 GPL-3.0
+ * @link      https://johncms.com JohnCMS Project
+ */
+
+/**
+ * @var $title
+ * @var $page_title
+ * @var $back_url
+ * @var $posts
+ * @var $topicId
+ */
+
+$this->layout('system::layout/default');
+?>
+
+<div class="alert alert-danger">
+    <div class="pb-2">
+        <?= __('Do you really want to delete?') ?>
+    </div>
+    <div>
+        <a href="<?= route('forum.massDelete', ['topicId' => $topicId], ['yes' => 1]) ?>" class="me-2 btn btn-danger btn-sm"><?= __('Delete') ?></a>
+        <a href="<?= $back_url ?>"><?= __('Cancel') ?></a>
+    </div>
+</div>

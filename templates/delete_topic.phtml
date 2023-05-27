@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @var $title
+ * @var $page_title
+ * @var $file_attached
+ * @var $back_url
+ */
+
+$this->layout('system::layout/default');
+?>
+
+<form action="<?= route('forum.confirmDelete', ['topicId' => $id]) ?>" method="post">
+    <input type="hidden" name="csrf_token" value="<?= $csrf_token ?>">
+    <div class="alert alert-danger">
+        <div class="pb-2">
+            <?= __('Do you really want to delete?') ?>
+        </div>
+        <div>
+            <div class="form-check">
+                <input type="radio" id="hide_topic" name="completeDelete" checked="checked" value="0" class="form-check-input">
+                <label class="form-check-label" for="hide_topic"><?= __('Hide') ?></label>
+            </div>
+            <?php if ($completeDelete): ?>
+                <div class="form-check">
+                    <input type="radio" id="del_topic" name="completeDelete" value="1" class="form-check-input">
+                    <label class="form-check-label" for="del_topic"><?= __('Delete') ?></label>
+                </div>
+            <?php endif; ?>
+        </div>
+    </div>
+    <div>
+        <button type="submit" name="submit" value="1" class="btn btn-primary"><?= __('Perform') ?></button>
+        <a href="<?= $back_url ?>" class="btn btn-secondary"><?= __('Cancel') ?></a>
+    </div>
+</form>

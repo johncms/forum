@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @var $title
+ * @var $page_title
+ * @var $back_url
+ */
+
+$this->layout('system::layout/default');
+?>
+
+<div class="alert alert-danger">
+    <div class="pb-2">
+        <?= __('Do you really want to delete a poll?') ?>
+    </div>
+    <div>
+        <form action="" method="post">
+            <input type="hidden" name="csrf_token" value="<?= $csrf_token ?>">
+            <input type="hidden" name="confirm" value="yes">
+
+            <button type="submit" class="me-2 btn btn-danger btn-sm"><?= __('Delete') ?></button>
+            <a href="<?= $back_url ?>" class="me-2 btn btn-primary btn-sm"><?= __('Cancel') ?></a>
+        </form>
+    </div>
+</div>
+
