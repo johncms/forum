@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 use Johncms\Forum\Controllers\CuratorsController;
 use Johncms\Forum\Controllers\FilesController;
 use Johncms\Forum\Controllers\MessagesController;
@@ -10,12 +12,11 @@ use Johncms\Forum\Controllers\TopicsController;
 use Johncms\Forum\Controllers\LatestTopicsController;
 use Johncms\Forum\Controllers\PollController;
 use Johncms\Forum\ForumPermissions;
+use Johncms\Router\RouteCollection;
 use Johncms\Users\Middlewares\AuthorizedUserMiddleware;
 use Johncms\Users\Middlewares\HasPermissionMiddleware;
-use League\Route\RouteGroup;
-use League\Route\Router;
 
-return function (Router $router) {
+return function (RouteCollection $router) {
     $router->get('/forum[/]', [SectionsController::class, 'index'])->setName('forum.index');
     $router->get('/forum/latest[/]', [LatestTopicsController::class, 'latest'])->setName('forum.latest');
 
@@ -29,7 +30,7 @@ return function (Router $router) {
     $router->get('/forum/filter/{topicId:number}[/]', [TopicsController::class, 'filter'])->setName('forum.filter');
     $router->post('/forum/filter/{topicId:number}[/]', [TopicsController::class, 'filter']);
 
-    $router->group('/forum', function (RouteGroup $route) {
+    $router->group('/forum', function (RouteCollection $route) {
         $route->get('/unread[/]', [LatestTopicsController::class, 'unread'])->setName('forum.unread');
         $route->get('/period[/]', [LatestTopicsController::class, 'period'])->setName('forum.period');
         $route->get('/mark-as-read[/]', [LatestTopicsController::class, 'markAsRead'])->setName('forum.markAsRead');
@@ -55,15 +56,15 @@ return function (Router $router) {
         $route->post('/create-topic-store/{sectionId:number}[/]', [TopicsController::class, 'store'])->setName('forum.storeTopic');
 
         $route->get('/mass-delete/{topicId:number}[/]', [TopicsController::class, 'massDelete'])
-            ->middleware(new HasPermissionMiddleware(ForumPermissions::MANAGE_POSTS))
+            ->addMiddleware(new HasPermissionMiddleware(ForumPermissions::MANAGE_POSTS))
             ->setName('forum.massDelete');
         $route->post('/mass-delete/{topicId:number}[/]', [TopicsController::class, 'massDelete'])
-            ->middleware(new HasPermissionMiddleware(ForumPermissions::MANAGE_POSTS));
+            ->addMiddleware(new HasPermissionMiddleware(ForumPermissions::MANAGE_POSTS));
 
         $route->post('/vote/{topicId:number}[/]', [PollController::class, 'vote'])->setName('forum.vote');
 
         $route->get('/vote-users/{topicId:number}[/]', [PollController::class, 'users'])
-            ->middleware(new HasPermissionMiddleware(ForumPermissions::MANAGE_TOPICS))
+            ->addMiddleware(new HasPermissionMiddleware(ForumPermissions::MANAGE_TOPICS))
             ->setName('forum.voteUsers');
 
         // Delete message
@@ -71,11 +72,11 @@ return function (Router $router) {
         $route->post('/delete-post-confirm/{id:number}[/]', [MessagesController::class, 'confirmDelete'])->setName('forum.confirmDeletePost');
 
         $route->get('/restore-post/{id:number}[/]', [MessagesController::class, 'restore'])
-            ->middleware(new HasPermissionMiddleware(ForumPermissions::MANAGE_POSTS))
+            ->addMiddleware(new HasPermissionMiddleware(ForumPermissions::MANAGE_POSTS))
             ->setName('forum.restorePost');
-    })->lazyMiddleware(AuthorizedUserMiddleware::class);
+    })->addMiddleware(AuthorizedUserMiddleware::class);
 
-    $router->group('/forum/topic', function (RouteGroup $route) {
+    $router->group('/forum/topic', function (RouteCollection $route) {
         $route->get('/edit/{topicId:number}[/]', [TopicsController::class, 'edit'])->setName('forum.editTopic');
         $route->post('/edit-store/{topicId:number}[/]', [TopicsController::class, 'changeTopic'])->setName('forum.changeTopic');
 
@@ -104,5 +105,5 @@ return function (Router $router) {
         $route->get('/curators/{topicId:number}[/]', [CuratorsController::class, 'index'])->setName('forum.curators');
         $route->post('/curators/{topicId:number}[/]', [CuratorsController::class, 'index']);
     })
-        ->middleware(new HasPermissionMiddleware(ForumPermissions::MANAGE_TOPICS));
+        ->addMiddleware(new HasPermissionMiddleware(ForumPermissions::MANAGE_TOPICS));
 };
